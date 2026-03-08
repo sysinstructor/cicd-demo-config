@@ -11,7 +11,7 @@ spec:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: guestbook
+    path: webapp
     repoURL: 'https://github.com/sysinstructor/cicd-demo-config'
     targetRevision: master
   project: dev
