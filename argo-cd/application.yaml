@@ -11,10 +11,10 @@ spec:
     namespace: default
     server: 'https://kubernetes.default.svc'
   source:
-    path: webapp
+    path: ci-cd-demo
     repoURL: 'https://github.com/sysinstructor/cicd-demo-config'
     targetRevision: master
-  project: dev
+  project: cicd-project
   syncPolicy:
     automated: null
     syncOptions:
