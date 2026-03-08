@@ -14,5 +14,6 @@ spec:
         app: webapp
     spec:
       containers:
-        - image: takytaky/cicd-demo:1.0
+        - image: takytaky/cicd_demo:1.0
           name: webapp-container
+
